@@ -14,8 +14,6 @@ def export_libname(path,folder,filename):
         if table.partition(sep)[2] == 'sas7bdat':
             dataset.append(table.split(sep, 1)[0])
 
-    '[%s]' % ', '.join(map(str, dataset))
-
     Excelwriter = pd.ExcelWriter(folder+"/"+filename+".xlsx",engine="xlsxwriter")
 
     
