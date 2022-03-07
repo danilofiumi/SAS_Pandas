@@ -1,5 +1,5 @@
 # SAS_Pandas
-Questa repository contiene una serie di utilities per interagire con le tabelle sas7bdat proprietarie SAS su Python sfruttando Pandas
+Questa repository contiene una serie di utilities per interagire con le tabelle proprietarie SAS (.sas7bdat) su Python sfruttando Pandas.
 
 ## libname
 la funzione libname analogamente allo statement SAS, va a leggere tutti i file con estensione .sas7bdat, importandoli come dataframe pandas all'interno della sessione python, con nomenclatura SAS e encoding riadattato al formato in entrata.
