@@ -3,10 +3,12 @@ Questa repository contiene una serie di utilities per interagire con le tabelle 
 
 ## libname
 la funzione libname analogamente allo statement SAS, va a leggere tutti i file con estensione .sas7bdat nel path indicato, importandoli come dataframe pandas all'interno della sessione python. Viene mantenuta la stessa nomenclatura SAS, e l'encoding viene riadattato al formato in entrata.
+
 uso --> libname("path\to\tables\")
 
 ## clear_libname
 elimina tutti i dataframe dichiarati da un precedente chiamata di libname, liberando spazio in memoria e mantenendo ordine e pulizia in sessione.
+
 uso --> clear_libname("path\to\tables\")
 
 ## export_libname
